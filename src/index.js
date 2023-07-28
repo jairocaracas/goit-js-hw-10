@@ -19,9 +19,6 @@ async function fetchCats() {
   new SlimSelect({
     select: list,
     data: renderData,
-    settings: {
-      placeholderText: 'Select a breed',
-    },
   });
 }
 
